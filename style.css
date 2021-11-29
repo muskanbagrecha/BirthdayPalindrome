@@ -53,3 +53,41 @@ input{
     width: 400px;
     margin: 30px auto;
 }
+footer{
+    background-color: var(--primary-orange);
+    color: black;
+    font-size: 1rem;
+}
+
+#portfolio #logo{
+    font-size: 1rem;
+    font-weight: bold;
+    color: inherit;
+}
+
+#portfolio-logo{
+    display: block;
+    margin: 14px auto;
+    height: 2rem;
+    width: 2rem;
+}
+
+footer img{
+        width: 25px;
+        height: 25px;
+        margin: 10px 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: black;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
