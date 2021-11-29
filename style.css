@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Raleway:ital,wght@1,500&family=Rubik:wght@300&display=swap');
+
+:root{
+    --primary-color: #f6b1b1;
+    --secondary-color: #730d0d;
+}
+
+body{
+    background-color: var(--primary-color);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+#highlight{
+    color: var(--secondary-color);
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin: 30px auto;
+    font-size: 2rem;
+}
+
+#submit{
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: #fce8e8;
+    color: var(--secondary-color);
+}
+
+input{
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+}
+
+#result{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    width: 400px;
+    margin: 30px auto;
+}
